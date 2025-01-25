@@ -54,7 +54,7 @@ def deploy_token():
         print(f"Token deployed. Asset ID: {asset_id}")
         
         # Display AlgoExplorer URL
-        url = f"https://app.dappflow.org/explorer/asset/{asset_id}"
+        url = f"https://lora.algokit.io/testnet/asset/{asset_id}"
         print(f"Asset URL: {url}")
     
     except Exception as e:
